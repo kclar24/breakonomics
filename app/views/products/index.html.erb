@@ -18,9 +18,9 @@
       <tr>
         <td><%= product.name %></td>
         <td><%= product.price %></td>
-        <div class="product-image">
-          <td><img class="img-responsive" src="<%= product.image_url %>"></td>
-        </div>
+
+        <td><div class="product-image"><img class="img-responsive" src="<%= product.image_url %>"></div></td>
+
         <td><%= product.description %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
