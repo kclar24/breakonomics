@@ -2,7 +2,10 @@
 *= require_tree .
 *= require_self
 */
+.nav-p {
+  margin: 0px;
+}
 
-.myButton {
-  vertical-align: middle;
+body {
+
 }
