@@ -2,7 +2,9 @@ Rails.application.routes.draw do
 
   get 'users/index'
 
-  root 'page#home'
+  root 'page#landing'
+
+  get 'page/landing'
 
   get 'page/home'
 

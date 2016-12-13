@@ -2,10 +2,28 @@
 *= require_tree .
 *= require_self
 */
+
+body {
+  min-height: 100vh;
+  background-color: rgb(207, 207, 207);
+}
+
 .nav-p {
   margin: 0px;
 }
 
-body {
+#logo {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
 
+.page-container {
+  margin: 5vh 5vw 0 5vw;
+  background-color: rgb(255, 255, 255);
+  height: 85vh;
+}
+
+.content-container {
+  margin: 5vh 5vw 5vh 5vw;
 }
