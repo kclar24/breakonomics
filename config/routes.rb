@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   get 'page/greatest_hits'
 
+  get 'page/storefront'
+
   resources :products
   devise_for :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

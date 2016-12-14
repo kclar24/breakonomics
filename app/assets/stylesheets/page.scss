@@ -38,6 +38,24 @@
   margin: auto;
 }
 
-#enter-site-text {
+.store-item {
+  max-width: 26vw;
+  position: relative;
+  float: left;
+}
 
+.item-override {
+  margin-bottom: 0;
+}
+
+#store-item-name {
+  font-size: 2vmin;
+}
+
+#store-item-price {
+  font-size: 1.5vmin;
+}
+
+.show-page-image {
+  width: 50vmin;
 }

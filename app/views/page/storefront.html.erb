@@ -1,0 +1,19 @@
+<p class="page-title">
+  Items for Sale
+</p>
+
+<hr />
+
+<% @products.each_slice(3) do |group| %>
+  <div class="row">
+    <% group.each do |product| %>
+      <div class="store-item">
+        <div class="well center-it item-override" >
+          <p><%= image_tag product.image_url, width: '100%' %></p>
+          <p id="store-item-name"><%= link_to product.name, product %></p>
+          <p id="store-item-price"><%= number_to_currency product.price %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>

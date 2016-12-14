@@ -11,4 +11,9 @@ class PageController < ApplicationController
 
   def greatest_hits
   end
+
+  def storefront
+    @products = Product.all
+  end
+
 end

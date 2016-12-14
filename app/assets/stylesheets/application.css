@@ -21,7 +21,7 @@ body {
 .page-container {
   margin: 5vh 5vw 0 5vw;
   background-color: rgb(255, 255, 255);
-  height: 85vh;
+  height: 100%;
 }
 
 .content-container {

@@ -23,7 +23,7 @@
 
   <div class="field">
     <%= f.label :quantity %>
-    <%= f.number_field :quantity %>
+    <%= f.number_field :quantity, :min => 1,  :value => 1 %>
   </div>
 
   <div class="field">
@@ -43,11 +43,14 @@
 
   <div class="field">
     <%= f.label :one_time %>
-    <%= f.check_box :one_time %>
+    <%= f.check_box :one_time, {:checked => true} %>
   </div>
 
   <div class="field">
     <%= f.label :note %>
+    <p>
+      Only admin can see:
+    </p>
     <%= f.text_area :note %>
   </div>
 
