@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hit.name %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @hit.image_url %>
+</p>
+
+<p>
+  <strong>Break date:</strong>
+  <%= @hit.break_date %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @hit.description %>
+</p>
+
+<%= link_to 'Edit', edit_hit_path(@hit) %> |
+<%= link_to 'Back', hits_path %>

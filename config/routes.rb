@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :hits
   get 'users/index'
 
   root 'page#landing'
