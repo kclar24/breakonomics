@@ -27,3 +27,7 @@ body {
 .content-container {
   margin: 5vh 5vw 5vh 5vw;
 }
+
+#logged-in-text {
+  font-size: 1vmax;
+}
